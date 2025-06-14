@@ -29,7 +29,7 @@ class _SplashViewBodyState extends State<SplashViewBody>
       end: 1.0,
     ).animate(CurvedAnimation(parent: _controller, curve: Curves.easeIn));
 
-    Timer(const Duration(seconds: 4), () {
+    Timer(const Duration(seconds: 8), () {
       Navigator.pushReplacementNamed(context, WelcomeView.routeName);
     });
   }

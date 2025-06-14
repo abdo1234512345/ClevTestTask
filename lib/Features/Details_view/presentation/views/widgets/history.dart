@@ -1,6 +1,4 @@
-import 'package:clevtask/core/constant/assets.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_svg/svg.dart';
 
 class History extends StatelessWidget {
   const History({super.key});
